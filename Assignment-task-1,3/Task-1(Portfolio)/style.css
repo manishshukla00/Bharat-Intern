@@ -1,0 +1,163 @@
+/* Default style */
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Head tags */
+
+h1 {
+    position: absolute;
+    top: 80px;
+    font-size: 4.7em;
+    margin: 50px auto -20px auto;
+    font-family: 'Sacramento', cursive;
+    color: orange;
+    z-index: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    color: #080cf7;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1133ee;
+    font-weight: 600;
+}
+
+/* Header section */
+
+.top-container {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+}
+
+.top-container img {
+    width: 100vw;
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.headline {
+    position: absolute;
+    font-size: 2.5rem;
+    color: blue;
+    top: 202px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+}
+
+/* Profile section */
+
+.hello-s {
+    margin: 20px auto -60px auto;
+    font-size: 3rem;
+}
+
+.hello-h {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.description {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.my-pic {
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Skill-section */
+
+.skill-row {
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-2 {
+    text-align: center;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    margin: 0 auto 30px auto;
+    width: 5%;
+}
+
+/* Contact section */
+
+.hello-g {
+    margin: 20px auto 20px auto;
+    font-size: 3rem;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 30px auto;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 20px;
+}
+
+/* Footer section */
+
+.bottom-container {
+    background-color: #222;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.footer-link {
+    padding: 2rem;
+}
+
+.copy {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #888;
+}
+
+a {
+    color: #888;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-size: large;
+}
